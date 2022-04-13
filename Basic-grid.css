@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(35, 88, 119);
+}
+.content{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 110px;
+}
+.id{
+    font-size: 20px;
+    color: #444;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+.header-sec{
+    background-image: url(image/01.png);
+    padding: 70px 0;
+    position: relative;
+}
+.header{
+    color: white;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(26, 68, 88);
+    padding: 20px 30px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.head .mobile-menu{ display: none; }
+.head em{ display: none; }
+.head .em{ display: none; }
+.head ul{
+    display: flex;
+    column-gap: 40px;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+.head .menu{ 
+    display: none; 
+    position: absolute;
+    right: 320px;
+    top: 76px;
+    background-color: rgb(38, 98, 151, .7);
+    width: 200px;
+}
+.head .menu li{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(74, 128, 256);
+    transition: 0.3s;
+}
+.head .menu li:hover{
+    background-color: deepskyblue;
+    color: white;
+    transition: 0.3s;
+}
+.head ul li:hover{
+    color: rgb(74, 186, 248);
+    cursor: pointer;
+}
+.head ul li{ color: white; }
+.head p i{
+    font-style: normal;
+    font-size: 30px;
+}
+.head p{
+    font-size: 20px;
+    cursor: pointer;
+}
+.header .lorem{
+    display: flex;
+    column-gap: 30px;
+    justify-content: end;
+}
+.header .lorem li{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.header .lorem li:last-child{ color: rgb(74, 186, 248); }
+/* header finish */
+.contact{
+    background-color: rgb(35, 88, 119);
+}
+.contact-details{ padding: 50px 0; }
+.contact-details ul{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+.contact ul li{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+.contact ul li i{
+    background-color: rgb(55, 106, 129);
+    color: rgb(116, 225, 240);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+}
+.contact ul li i:hover{
+    background-color: rgb(74, 186, 248);
+    color: white;
+    transition: 1s;
+}
+.contact ul li b{ 
+    font-weight: normal;
+    color: rgb(116, 225, 240);
+}
+.contact ul li p{
+    font-size: 15px;
+    padding-top: 2px;
+}
+.contact ul li h4{
+    padding-bottom: 2px;
+    font-size: 16px;
+}
+/* contact finish */
+.main-sec{
+    background-color: white;
+    padding: 80px 0;
+}
+.main-half .half-box{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    column-gap: 50px;
+}
+.half-box p:first-child{
+    background-color: rgb(204, 204, 204);
+}
+.half-box p:last-child{
+    background-color: rgb(133, 133, 133);
+}
+.half-box p{
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.main-Quarter{
+    padding-bottom: 30px;
+}
+.main-Quarter .chorak-a{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    text-align: center;
+}
+.main-Quarter .chorak-a p{
+    flex: 1;
+    padding: 10px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.main-Quarter .chorak-a p:nth-child(odd){
+    background-color: rgb(204, 204, 204);
+}
+.main-Quarter .chorak-a p:nth-child(even){
+    background-color: rgb(133, 133, 133);
+}
+.main-Quarter .chorak-b{
+    display: flex;
+    padding: 40px 0;
+    column-gap: 50px;
+}
+.main-Quarter .chorak-b p:nth-child(1){
+    background-color: rgb(204, 204, 204);
+    flex: 1;
+    padding: 10px 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.main-Quarter .chorak-b p:nth-child(2){
+    background-color: rgb(133, 133, 133);
+    flex: 1;
+    padding: 10px 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.main-Quarter .chorak-b p:nth-child(3){
+    flex: 2.2;
+    background-color: rgb(204, 204, 204);
+    padding: 10px 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.main-Quarter .chorak-c{
+    display: flex;
+    column-gap: 50px;
+}
+.main-Quarter .chorak-c p:nth-child(1){
+    flex: 1;
+    background-color: rgb(204, 204, 204);
+    padding: 10px 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.main-Quarter .chorak-c p:nth-child(2){
+    flex: 3.4;
+    background-color: rgb(133, 133, 133);
+    padding: 10px 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.main-Third .third-a{
+    display: flex;
+    column-gap: 50px;
+    padding-bottom: 40px;
+}
+.main-Third .third-a p:nth-child(odd){
+    background-color: rgb(204, 204, 204);
+}
+.main-Third .third-a p:nth-child(1){ flex: 1; }
+.main-Third .third-a p:nth-child(2){
+    flex: 1;
+    background-color: rgb(133, 133, 133);
+}
+.main-Third .third-a p:nth-child(3){ flex: 1; }
+.main-Third .third-a p{
+    padding: 10px 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.main-Third .third-b{
+    display: flex;
+    column-gap: 50px;
+}
+.main-Third .third-b p:nth-child(1){
+    flex: 1;
+    background-color: rgb(204, 204, 204);
+    padding: 10px 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.main-Third .third-b p:nth-child(2){
+    flex: 2.15;
+    background-color: rgb(133, 133, 133);
+    padding: 10px 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+/* main finish */
+.footer-sec{ background-color: rgb(26, 68, 88); padding: 50px 0; }
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{ 
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+}
+.footer h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.footer-list-a{
+    width: 23%;
+    color: white;
+}
+.footer-list-a p{ line-height: 25px; }
+.footer-list-a ul{
+    display: flex;
+    column-gap: 10px;
+    padding-top: 40px;
+}
+.footer-list-a ul li{
+    background-color: rgb(55, 106, 129);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.footer-list-a ul li:nth-child(1):hover{
+    background-color: rgb(45, 69, 134);
+}
+.footer-list-a ul li:nth-child(2):hover{
+    background-color: red;
+}
+.footer-list-a ul li:nth-child(3):hover{
+    background-color: rgb(38, 98, 151);
+}
+.footer-list-a ul li:nth-child(4):hover{
+    background-color: rgb(74, 186, 248);
+}
+.footer-list-a ul li:nth-child(5):hover{
+    background-color: rgb(62, 81, 123);
+}
+.footer-list-b{
+    width: 23%;
+}
+.footer-list-b h3{ padding-bottom: 25px; }
+.footer-list-b p{
+    font-family: sans-serif;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(55, 106, 129);
+    padding: 15px 0;
+    color: rgb(74, 186, 248);
+    cursor: pointer;
+}
+.footer-list-b p:last-child{
+    border: none;
+}
+.footer-list-c{
+    width: 23%;
+    color: white;
+}
+.footer-list-c input{
+    display: flex;
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 12px;
+    background-color: rgb(55, 106, 129);
+    border: none;
+    margin: 15px 0;
+    outline: none;
+    color: white;
+}
+.footer-list-c input:focus{
+    background-color: rgb(74, 186, 248);
+    transition: 0.5s;
+}
+.footer-list-c h5{
+    font-family: sans-serif;
+    background-color: rgb(74, 186, 248);
+    width: 90px;
+    text-align: center;
+    padding: 13px;
+    border-radius: 12px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer-list-c h5:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.footer-list-d{
+    width: 23%;
+    color: white;
+}
+.footer-list-d h3{ padding-bottom: 25px; }
+.footer-list-d .nom{
+    color: rgb(74, 186, 248);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.footer-list-d .sana{  
+    font-size: small;
+    font-family: sans-serif;
+    padding-top: 2px;
+}
+.footer-list-d .text{
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    border-bottom: 1px solid rgb(55, 106, 129);
+    padding: 10px 0 ;
+}
+.footer-list-d .text:last-child{
+    border: none;
+}
+.copy{ 
+    background-color:rgb(35, 88, 119);
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+.copy p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align: center;
+}
+.copy .fa-chevron-up{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    background-color: deepskyblue;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+

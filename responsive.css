@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1100px){
+    .header{ padding: 0 20px; }  
+    .head ul{ column-gap: 30px; }
+    .contact-details ul li h4{ font-size: 14px;}
+    .contact-details ul li p{ font-size: 11px; }
+    .contact-details ul li i{ width: 40px; height: 40px; font-size: 16px;}
+    
+}
+@media only screen and (max-width: 950px){
+    .contact-details{ padding: 30px 0; }
+    .contact-details ul li{ width: 48%; padding-bottom: 10px;}
+    .contact-details ul{ flex-wrap: wrap; } 
+    .footer{
+        display: block;
+    }
+    .footer-list-a, .footer-list-b, .footer-list-c, .footer-list-d{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-list-d{ margin: 0; }
+}
+@media only screen and (max-width: 900px){ 
+    .head ul .linktext{ display: none; } 
+    .head .menu{ right: 230px; width: 160px; }
+    .header .lorem { right: 20px; }
+}
+
+@media only screen and (max-width: 650px){
+    .content{
+        padding: 0 20px;
+    }
+    .head ul{
+        display: none;
+    }
+    .head{ display: block; }
+    .head em{ display: block; position: absolute; top: 5px; left: 10px; color: #ccc;}
+    .nekmit{    
+        text-align: center;
+    }
+    .header .dolor{
+        right: 20px; 
+    }
+    .header .lorem{ right: 20px; }
+    .head .mobile-menu{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #555;
+        padding: 10px;
+        margin: 10px 0;
+    }
+    .header .lorem li{ font-size: 10px; }
+    .mobile-menu i{ font-size: 12px; }
+    .mobile-menu p {
+        font-size: 13px;
+        font-family: sans-serif;
+    }
+    .head .menu{
+        right: 30px;
+        top: 101px;
+        width: 120px;
+    }
+    .head .menu li{ font-size: 10px; padding: 10px;}
+    .contact-details ul li i{ width: 30px; height: 30px; font-size: 12px;}
+}

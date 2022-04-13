@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px){
+    .main-half .half-box{ display: block; }
+    .main-Quarter .chorak-a{ display: block; }
+    .main-Quarter .chorak-b{ display: block; }
+    .main-Quarter .chorak-c{ display: block; }
+    .main-Third .third-a{ display: block; }
+    .main-Third .third-b{ display: block; } 
+}

@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px) {
+    .main{ display: block; }
+    .float-right{ display: block; }
+    .float-left{ display: block; }
+    .float-img-box{ margin: 10px 0 20px 0; }
+    .write-comment .frame{ display: block; }
+}
+@media only screen and (max-width: 900px) {
+    .float-img-box{ margin: 10px 0 20px 0; }
+    .write-comment .frame{ display: block; }
+    .content{ padding: 0 40px; }
+}

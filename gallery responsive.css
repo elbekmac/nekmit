@@ -1,0 +1,6 @@
+
+@media only screen and (max-width: 600px){
+    .head .menu li{ font-size: 10px; padding: 10px;}
+    .main ul{ display: block; }
+    .main .boxs .img-box{ width: 32%; }
+}
